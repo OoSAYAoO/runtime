@@ -1,0 +1,9 @@
+---
+# Default Kibana configuration from kibana-docker.
+
+server.name: kibana
+server.host: elasticsearch
+elasticsearch.url: http://elasticsearch:9200
+elasticsearch.username: elastic
+elasticsearch.password: changme
+xpack.security.enabled: false
